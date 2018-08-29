@@ -64,15 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
-	/* display: flex; */
-	/* justify-content: center; */
-}
 .page-container {
 	width: 900px;
 	margin: 0 auto;
-	/* display: flex; */
-	/* flex-direction: column; */
 }
 
 /* this is content of the nav section */
@@ -101,25 +95,33 @@ nav a {
 
 /* this is the start of the header section */
 header {
-	text-align: center;
-	padding: 20px 10px;
+	height: 450px;
+	display: flex;
+	justify-content: space-around;
 }
 header h1 {
+	text-align: center;
 	font-size: 54px;
 }
 .header-left {
-	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .header-left p {
+	text-align: center;
 	width: 130px;
 	border: 2px black solid;
+	align-self: center;
 }
 .header-right {
-	width: 400px;
+	display: flex;
+	justify-content: center;
 }
 .header-right img {
-	/* width: 300px;
-	height: auto; */
+	width: 300px;
+	height: auto;
+	align-self: center;
 }
 
 /* section and section classes */
@@ -128,7 +130,7 @@ section {
 	margin: 0 auto;
 	text-align: center;
 }
-.content {
+.home-content {
 	padding: 15px 0;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
