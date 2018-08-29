@@ -168,6 +168,8 @@ section {
 
 /* start of the footer section */
 footer {
-	text-align: center;
-	padding: 15px 0 55px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 35px;
 }
