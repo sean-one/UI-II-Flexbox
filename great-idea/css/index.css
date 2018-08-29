@@ -175,3 +175,7 @@ footer {
 }
 
 /* this is the start of the services page */
+.service-header {
+	display: flex;
+	flex-direction: column;
+}
