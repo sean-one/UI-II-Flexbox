@@ -158,17 +158,12 @@ section {
 
 /* start of the contact section */
 .contact {
-	width: 85%;
-	padding-top: 20px;
-	margin: 0 auto;
-}
-.contact address p {
-	padding: 0;
-	margin: 0;
-}
-.contact p {
-	padding: 0;
-	margin: 15px 0;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
 }
 
 /* start of the footer section */
